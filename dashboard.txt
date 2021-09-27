@@ -1,0 +1,14 @@
+from tkinter import*
+
+window=Tk()
+window.title("DASHBOARD")
+window.geometry("1450x750")
+window.config(bg="grey")
+
+main=Label(window, text="Automated Attendance System", font="Calibri 40 bold",width=30,bg="blue").place(x=300,y=30)
+quit=Button(window, text="Log out",font="3",width=6,height=1).place(x=1350,y=30)
+admin=Button(window, text="ADMIN",font="6",width=30,height=5,bg="light green").place(x=70,y=375)
+teacher=Button(window, text="TEACHER",font="6",width=30,height=5,bg="light green").place(x=570,y=375)
+student=Button(window, text="STUDENT",font="6",width=30,height=5,bg="light green").place(x=1050,y=375)
+    
+window.mainloop()
